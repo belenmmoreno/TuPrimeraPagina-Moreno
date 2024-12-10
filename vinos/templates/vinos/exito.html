@@ -1,0 +1,11 @@
+{% extends 'vinos/base.html' %}
+
+{% block titulo %}
+Éxito
+{% endblock %}
+
+{% block contenido %}
+<h2>La bodega fue creada con éxito</h2>
+<p>Puedes realizar otra acción en el menú de navegación.</p>
+<a href="{% url 'inicio' %}">Volver al inicio</a>
+{% endblock %}
